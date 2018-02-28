@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+
+<body class="site">
+<nav>
+    <h1>Number to Guess:
+        <span id="number-to-guess"></span>
+    </h1>
+</nav>
+    <main class ="site-content">
+        <p>Collect the points hidden behind the crystals to match the randomely generated number and win!</p>
+    <!-- TO BE FILLED DYNAMICALLY -->
+    <div id="container"></div>
+        <div id="crystals"></div>
+    </div>
+    <p id= "counter">Counter</p>
+    <p id= "win">Wins</p>
+    <p id= "lost">Losses</p>
+    
+
+    <!-- JAVASCRIPT  -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type = "text/javascript" src="assets/javascript/game.js">
+            
+    </script>
+
+    </main>
+
+    <footer>
+        <audio id="play" autoplay loop controls>
+            <source src="assets/music/DYDCLFMMUSICMIX2.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+        <div class="container">
+            <p>Copyright © 2018 Carter Banks</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

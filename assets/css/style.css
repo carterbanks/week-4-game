@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url("../images/diagmonds/diagmonds_@2X.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fcf8f8;
+}
+
+nav { 
+    background-image: url("../images/whitediamond/whitediamond_@2X.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;    
+    background-color: #fcf8f8;
+    border-bottom: 8px solid #fcf8f8;   
+
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    max-width: 960px;
+    margin: 0 auto;  
+    flex: 1;
+}
+
+#container { 
+    text-align: justify;
+    min-width: 600px;
+}
+
+#container div {
+    display: inline;
+}
+#container:after {
+    content: '';
+    display: inline;
+}
+
+
+h1 { 
+    font-family: 'Amatic SC', cursive;
+    font-size: 72px;  
+    font-weight: bold;    
+    color: #141414;
+    text-align: center; 
+    line-height: 100%;   
+}
+
+p { 
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    color: #e0e0e0;
+    text-align: center;
+    line-height: 150%;
+}
+
+#crystals { 
+    display: flex;  
+    justify-content: space-around;    
+    align-items: center;        
+}
+
+.crystal-image { 
+    width: 274px;
+    height: auto;
+    border: 2px solid #fcf8f8;   
+    margin: 5px;
+}
+
+footer { 
+    background-image: url("../images/whitediamond/whitediamond_@2X.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: bottom;    
+    margin: 0px;
+    background-color: #fcf8f8;
+    font-family: 'Amatic SC', cursive;
+    border-top: 8px solid #fcf8f8;
+    font-size: 48px;
+    color: #3c3c41;
+    font-weight: bold;  
+    text-align: center;
+    line-height: 200%;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+p {
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center; 
+    }
+
+.site-content {
+    max-width: 650px;   
+    }
+
+  .crystal-image {
+      width: 150px;
+      height: auto;
+      border: 2px solid #fcf8f8;
+      margin: 5px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+.site-content {
+    max-width: 500px;
+}
+.crystal-image {
+    width: 100px;
+    height: auto;
+    border: 2px solid #000000;
+    margin: 5px;
+}
+}
